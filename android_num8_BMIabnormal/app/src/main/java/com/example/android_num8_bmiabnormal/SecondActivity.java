@@ -35,7 +35,7 @@ public class SecondActivity extends AppCompatActivity {
             bmi = weight / (height * height);
             TextView bmitit = (TextView)findViewById(R.id.BMIValue);
             bmitit.setText(nf.format(bmi));
-            TextView abnormal = (TextView)findViewById(R.id.A);
+            TextView abnormal = (TextView)findViewById(R.id.Ans);
             if (bmi < 18){
                 abnormal.setText("異常(過輕)");
             }
